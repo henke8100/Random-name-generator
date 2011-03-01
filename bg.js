@@ -1,0 +1,1 @@
+chrome.contextMenus.create({"title": "Generate random name", "contexts":["editable"],"onclick": rName});
