@@ -1,1 +1,16 @@
 ==RANDOM NAME GENERATOR FOR CHROME==
+
+== 1. Contents ==
+1. Contents
+2. About Random Name Generator
+3. How to contibrute
+
+== 2. About Random Name Generator ==
+Random Name Generator is a small project created by me, basically to learn how
+to create extensions for Google Chrome. Currently, the extension simply add an
+item to the context menu that allows the user to fill any <input> / <textarea>
+elements with a random name.
+
+==3. How to contibrute==
+To contibrute, simply submit a pull request, and I'll probably add it to the
+extension, and probably add your name to the contibrutors list.
