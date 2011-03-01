@@ -1,9 +1,8 @@
 {
-	"update_url":"http://clients2.google.com/service/update2/crx",
 	"name":"Random Name Generator",
 	"description":"Right click in any form to generate a random name",
 	"version":"0.2.4",
-	"options_page": "options.html",
+	"options_page": "options/options.html",
 	"permissions":["contextMenus","*://*/*","tabs"],
 	"icons":{
 		"16":"ico16.png",
