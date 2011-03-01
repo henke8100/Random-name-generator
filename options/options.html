@@ -9,18 +9,27 @@
 	<body>
 		<div class="optionsbox">
 			<div class="optionsboxtop">
-				<div class="menuitem">AA</div>
-				<div class="menuitem">AB</div>
-				<div class="menuitem">AC</div>
-				<div class="menuitem">AD</div>
+				<div class="menuitem" id="tab1">Names</div>
+				<div class="menuitem" id="tab2">Tab 2</div>
+				<div class="menuitem" id="tab3">Tab 3</div>
+				<div class="menuitem" id="tab4">Tab 4</div>
 			</div>
 			<div class="optionsboxcontent">	
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet venenatis lacinia. Aenean ligula dui, ultricies a vehicula ac, viverra sit amet felis. In hac habitasse
-					platea dictumst. Sed nisl felis, vestibulum eget facilisis a, molestie sit amet arcu. In eu leo sed mi congue aliquet. Nulla et congue purus. Sed purus lorem, auctor in congue et,
-					commodo nec nibh. Cras ullamcorper dignissim fermentum. Sed et elit et tortor porta lobortis vel non enim. Phasellus quis nisl vel elit condimentum vulputate. Aliquam non vulputate
-					lectus. Phasellus ornare velit leo. Nam sit amet dui sed lorem egestas euismod. Praesent mauris arcu, aliquet sit amet interdum quis, elementum eu eros.
-				</p>
+				<div class="tab shown" id="tab1c">
+					<fieldset>
+						<legend>Name length</legend>
+						Minimum name length:<br><input class="text" type="text" id="minlength">
+						<span style="color:lightgreen" id="savedmin"></span><br>
+						<i style="font-size:15px;">(2+ characters, same as Maximum length or less)</i><br>
+						Maximum length:<br><input class="text" type="text" id="maxlength">
+						<span style="color:lightgreen" id="savedmax"></span><br>
+						<i style="font-size:15px;">(2+ characters, same as Minium length or more)</i><hr>
+						<input type="button" onclick="save()" value="Save">
+					</fieldset>
+				</div>
+				<div class="tab" id="tab2c">t2</div>
+				<div class="tab" id="tab3c">t3</div>
+				<div class="tab" id="tab4c">tab4</div>
 			</div>
 		</div>
 	</body>

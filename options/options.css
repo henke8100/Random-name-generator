@@ -20,8 +20,10 @@ html,body{
 .optionsboxcontent{
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#89c3eb), color-stop(100%,#d5ebfb));
 	float:left;
+	width:100%;
 }
 .menuitem{
+	text-align: center;
 	background:rgba(150,150,150,0.2);
 	border:solid gray;
 	border-width:0 1px 0 1px;
@@ -30,4 +32,23 @@ html,body{
 	width:80px;
 	float:left;
 	margin:0 3px 0 3px;
+}
+.tab{
+	display: none;
+	width:100%;
+}
+.shown{
+	display:block;
+}
+fieldset{
+	border:0px;
+	border-top:1px solid black;
+}
+legend{
+	border:1px solid black;
+}
+input{
+	background:transparent;
+	-webkit-border-radius: 5px;
+	width:50px;
 }
